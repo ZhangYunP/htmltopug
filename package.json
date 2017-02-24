@@ -1,0 +1,35 @@
+{
+  "name": "gulp-htmltopug",
+  "version": "1.0.0",
+  "description": "gulp plugin convert html to pug ",
+  "keywords": [
+    "jade",
+    "pug",
+    "gulpplugin",
+    "stream",
+    "compile"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhangYunP/htmltopug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhangYunP/htmltopug/issues"
+  },
+  "homepage": "https://github.com/ZhangYunP/htmltopug#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "html2jade": "^0.8.6",
+    "object-assign": "^4.1.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
